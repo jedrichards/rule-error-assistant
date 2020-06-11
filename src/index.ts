@@ -1,15 +1,15 @@
 import { AssistantPackage } from '@sketch-hq/sketch-assistant-types'
-
-import { helloWorldRule } from './rules/hello-world'
+import CoreAssistant from '@sketch-hq/sketch-core-assistant'
 
 const assistant: AssistantPackage = [
+  CoreAssistant,
   async () => {
     return {
-      name: 'sketch-assistant-template',
-      rules: [helloWorldRule],
+      name: 'rule-error-assistant',
+      rules: [],
       config: {
         rules: {
-          [helloWorldRule.name]: { active: true },
+          '@sketch-hq/sketch-core-assistant/debug-throws-error': { active: true },
         },
       },
     }

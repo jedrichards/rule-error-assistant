@@ -1,13 +1,13 @@
 {
-  "name": "sketch-assistant-template",
-  "homepage": "https://github.com/sketch-hq/sketch-assistant-template",
+  "name": "rule-error-assistant",
+  "homepage": "https://github.com/sketch-hq/rule-error-assistant",
   "version": "0.1.0",
   "main": "dist/index.js",
   "sketch": "dist/sketch.js",
   "license": "MIT",
   "sketch-assistant": {
-    "title": "Sketch Assistant Template",
-    "description": "Template repository for a starter Assistant project",
+    "title": "Rule Error",
+    "description": "Generates a rule error",
     "icon": ""
   },
   "keywords": [
@@ -40,6 +40,7 @@
     "webpack-cli": "3.3.11"
   },
   "dependencies": {
-    "@sketch-hq/sketch-assistant-types": "5.0.0-next.18"
+    "@sketch-hq/sketch-assistant-types": "5.0.0-next.18",
+    "@sketch-hq/sketch-core-assistant": "5.0.0-next.18"
   }
 }

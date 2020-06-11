@@ -1,9 +1,9 @@
-# sketch-assistant-template
+# rule-error-assistant
 
 > 💁‍♀️ This repository contains a starter project for developing a new Assistant.
 
 👉
-[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/sketch-assistant-template/generate)
+[Click here to generate a new project using this repository as a template](https://github.com/sketch-hq/rule-error-assistant/generate)
 
 ## Skills needed
 
@@ -21,13 +21,13 @@ These tools are required to work on the Assistant locally.
 
 ## Getting started
 
-1. [Generate](https://github.com/sketch-hq/sketch-assistant-template/generate) a new repository
-   using this template.
+1. [Generate](https://github.com/sketch-hq/rule-error-assistant/generate) a new repository using
+   this template.
 1. Check out your new repository locally.
 1. Install the dependencies with `yarn install`.
 1. Open the folder in Visual Studio Code.
-1. Find and replace all instances of the `sketch-assistant-template` string with the name of your
-   new Assistant project. Name your Assistant as you would an npm package, i.e. all lower case, no
+1. Find and replace all instances of the `rule-error-assistant` string with the name of your new
+   Assistant project. Name your Assistant as you would an npm package, i.e. all lower case, no
    spaces.
 1. Update the Assistant metadata under the `sketch-assistant` field in package.json to reflect your
    project.
@@ -76,7 +76,9 @@ Sketch document.
 1. Sketch will check the disk location for updates to the tarball, so you can continue to re-build
    the Assistant to the same location and see live updates in Sketch
 
-> ⚠️ Assistants must be published to be used across multiple devices or within a team. Sketch documents with local Assistants added to them are not portable because the Assistant is referenced using a file path.
+> ⚠️ Assistants must be published to be used across multiple devices or within a team. Sketch
+> documents with local Assistants added to them are not portable because the Assistant is referenced
+> using a file path.
 
 ## Publish the Assistant
 
